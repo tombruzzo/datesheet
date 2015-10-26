@@ -6,6 +6,19 @@
 </head>
 <body>
 
+{
+  "users": {
+    "mchen": {
+      "friends": { "brinchen": true },
+      "name": "Mary Chen",
+      // our child node appears in the existing JSON tree
+      "widgets": { "one": true, "three": true }
+    },
+    "brinchen": { ... },
+    "hmadi": { ... }
+  }
+}
+
   <h3 class="text-center">Datesheet</h3>
     <div class="jumbotron">
       <h2 id="lblCurrentMessage" class="text-center"></h2>
